@@ -36,3 +36,4 @@ rm -v /etc/resolv.conf
 #  Test If DNSCrypt Working
 echo -e "\n Test (online) that dnscrypt-proxy working properly in your Ubuntu system. You should see "dnscrypt enabled".\n"
 dig debug.opendns.com txt
+nslookup -type=txt debug.opendns.com 
